@@ -1,0 +1,32 @@
+# ========================
+# Entornos
+# ========================
+.venv/
+.env
+__pycache__/
+*.pyc
+
+# ========================
+# Datos (NO versionar)
+# ========================
+DATA_ETIQUETADA_HOJAS/
+DATA_ETIQUETADA_PLANTAS/
+DATA_PROCESADA_HOJAS/
+DATA_PROCESADA_PLANTAS/
+IMAGENES_DEMOSTRACION/
+VIDEO_DEMOSTRACION/
+PlantVillage_ADL/
+METADATA/
+RESULTADOS_INFERENCIA/
+
+# ========================
+# Modelos y runs
+# ========================
+runs/
+*.pt
+*.onnx
+
+# ========================
+# Notebooks temporales
+# ========================
+.ipynb_checkpoints/

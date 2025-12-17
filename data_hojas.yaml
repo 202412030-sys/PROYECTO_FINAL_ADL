@@ -1,0 +1,11 @@
+# =====================================================
+# YOLOv8 Dataset Configuration - Detección de Hojas
+# =====================================================
+
+path: DATA_PROCESADA_PLANTAS
+
+train: images/train
+val: images/val
+
+names:
+  0: hojas
